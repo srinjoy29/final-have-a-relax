@@ -1,5 +1,6 @@
 import React from 'react';
-import banner2 from "../../../assets/home/banner-2.jpg"
+import banner2 from "../../../assets/home/banner-2.jpg";
+import {Link} from 'react-router-dom';
 const Hero2 = () => {
     return (
         <div className='min-h-screen  bg-cover' style={{ backgroundImage:  `url(${banner2})` }}>
